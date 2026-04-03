@@ -7,3 +7,11 @@ How to connect to a Jetson
 How to start using dockers in Jetson  
 How to run your application  
 
+1. Follow the instructions to connect to the jetson
+2. Clone the repository on the Desktop of Jetson, follow instructions given in test/a and organize the files
+3. Pull the docker
+4. Run the docker
+5. Run the script set.sh in /home/test folder to finish your settings
+6. Run mytest.py in /home/yolo10 folder
+7. Make changes to the default application w.r.t your project
+
