@@ -8,7 +8,7 @@ How to start using dockers in Jetson
 How to run your application  
 
 1. Follow the instructions to connect to the jetson
-2. Clone the repository on the Desktop of Jetson, follow instructions given in test/a and organize the files
+2. Clone the repository using **git clone https://github.com/jhilikb/ELC.git**__ on the Desktop of Jetson, follow instructions given in test/a and organize the files
 3. Pull the docker
 4. Run the docker
 5. Run the script set.sh in /home/test folder to finish your settings
