@@ -1,8 +1,9 @@
 cd ..
-git clone https://github.com/THU-MIG/yolov10.git
-cd yolov10
-wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10n.pt
+git clone https://github.com/ultralytics/ultralytics.git
+cd ultralytics
+git checkout v8.0.20
 cp /home/test/mytest.py ./
+CUDA_VISIBLE_DEVICES=""
 cp /home/test/libcublas.so.10 /usr/local/cuda/lib64/
 cp /home/test/libcublasLt.so.10 /usr/local/cuda/lib64/
 cp /home/test/libcudart.so.10.2 /usr/local/cuda/lib64/
