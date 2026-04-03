@@ -15,10 +15,10 @@ How to run your application
 6. Run mytest.py in /home/yolo10 folder
 7. Make changes to the default application w.r.t your project
 8. Some patches (comment out) required in the code:
-   nano ultralytics/yolo/utils/checks.py (display)
-   nano ultralytics/yolo/utils/torch_utils.py (thop)
-   nano ultralytics/yolo/utils/__init__.py  (sentry-sdk line 467)
-   nano ultralytics/nn/tasks.py (thop)
-   export PYTHONIOENCODING=utf-8
+   nano ultralytics/yolo/utils/checks.py (display)  
+   nano ultralytics/yolo/utils/torch_utils.py (thop)  
+   nano ultralytics/yolo/utils/__init__.py  (sentry-sdk line 467)  
+   nano ultralytics/nn/tasks.py (thop)  
+   export PYTHONIOENCODING=utf-8  
    nano ultralytics/yolo/utils/callbacks/base.py (tensorboard)
 
