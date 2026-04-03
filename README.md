@@ -14,5 +14,5 @@ How to run your application
 5. Run the script set.sh in /home/test folder to finish your settings
 6. Run mytest.py in /home/yolo10 folder
 7. Make changes to the default application w.r.t your project
-8. Some patches required in the code: ultralytics/hub/auth.py line 93 remove :-,  
+8. Some patches (comment out) required in the code: ultralytics/ultralytics/yolo/utils/checks.py
 
