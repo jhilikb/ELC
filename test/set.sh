@@ -22,3 +22,5 @@ apt-get install python3-opencv
 pip3 install importlib-metadata
 pip3 install requests
 apt-get install python3-pandas
+pip3 install huggingface-hub --no-cache-dir
+
