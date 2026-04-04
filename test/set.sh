@@ -24,4 +24,9 @@ pip3 install importlib-metadata
 pip3 install requests
 apt-get install python3-pandas
 pip3 install huggingface-hub --no-cache-dir
+cp /home/test/torch_utils.py  /home/ultralytics/ultralytics/yolo/utils/ 
+cp /home/test/__init__.py  /home/ultralytics/ultralytics/yolo/utils/
+cp /home/test/tasks.py  /home/ultralytics/ultralytics/nn/
+export PYTHONIOENCODING=utf-8
+cp /home/test/base.py  /home/ultralytics/ultralytics/yolo/utils/callbacks/
 
