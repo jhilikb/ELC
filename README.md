@@ -14,9 +14,13 @@ How to run your application
 4. Pull the docker as given in ELC.pdf Experiment 3,Step 1
 5. Run the docker as given in ELC.pdf Experiment 3,Step 1 but without the --rm option
 6. Run the script set.sh in /home/test folder to finish your settings
-7. Run mytest.py in /home/ultralytics folder
-8. Make changes to the default application w.r.t your project
-9. Some patches (lines to be commented out) required in the code:
+   cd /home/test; sh set.sh  
+8. Run mytest.py in /home/ultralytics folder
+   cd /home/test; python3 mytest.py  
+
+   Remember to follow Step 3,4,5 in ELC.pdf Experiment 3 everytime you exit the docker.  
+10. Make changes to the default application w.r.t your project
+11. Some patches (lines to be commented out) required in the code:
    nano ultralytics/yolo/utils/checks.py (display)  
    nano ultralytics/yolo/utils/torch_utils.py (thop)  
    nano ultralytics/yolo/utils/__init__.py  (sentry-sdk line 467)  
