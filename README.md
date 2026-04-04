@@ -8,7 +8,9 @@ How to start using dockers in Jetson
 How to run your application  
 
 For Internet connectivity to your kits you have 2 options  
-a) On your laptop run sh share_net.sh <your laptopip>  You can check laptop ip using ifconfig on linux.   
+a) On your laptop run   
+sh share_net.sh <your laptopip>   
+You can check laptop ip using ifconfig on linux.   
 b) Alternatively you can set your wifi dongle on your jetson.In your jetson run  
 sudo nmcli device wifi connect ‘ssid’ password ‘password’  
 
