@@ -7,6 +7,11 @@ How to connect to a Jetson
 How to start using dockers in Jetson  
 How to run your application  
 
+For Internet connectivity to your kits you have 2 options
+a) On your laptop run **sh share_net.sh <your laptop ip> **  You can check laptop ip using ifconfig on linux.  
+b) Alternatively you can set your wifi dongle on your jetson.In your jetson run
+sudo nmcli device wifi connect ‘ssid’ password ‘password’
+
 1. Follow the instructions in ELC.pdf Experiment 1,Step 1 to connect to the jetson. If you dont have Ubuntu check the options provided for Windows. 
 2. Clone the repository using **git clone https://github.com/jhilikb/ELC.git** on the Desktop of Jetson (make sure you are in /home/nvidia/Desktop),
     follow instructions given in test/a file in your ELC folder and organize the files. Recall you can download the files from the given drive link
