@@ -23,7 +23,7 @@ sudo nmcli device wifi connect ‘ssid’ password ‘password’
 6. Run the script set.sh in /home/test folder to finish your settings
    cd /home/test; sh set.sh  
 8. Run mytest.py in /home/ultralytics folder
-   cd /home/test; python3 mytest.py  
+   cd /home/ultralytics; python3 mytest.py  
 
    You are able to run an Object Detection task on your kit. Remember to follow Step 3,4,5 in ELC.pdf Experiment 3 everytime you exit the docker.  
 10. Make changes to the default application w.r.t your project
