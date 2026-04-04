@@ -18,7 +18,7 @@ How to run your application
 8. Run mytest.py in /home/ultralytics folder
    cd /home/test; python3 mytest.py  
 
-   Remember to follow Step 3,4,5 in ELC.pdf Experiment 3 everytime you exit the docker.  
+   You are able to run an Object Detection task on your kit. Remember to follow Step 3,4,5 in ELC.pdf Experiment 3 everytime you exit the docker.  
 10. Make changes to the default application w.r.t your project
 11. Some patches (lines to be commented out) required in the code:
    nano ultralytics/yolo/utils/checks.py (display)  
