@@ -7,14 +7,16 @@ How to connect to a Jetson
 How to start using dockers in Jetson  
 How to run your application  
 
-1. Follow the instructions to connect to the jetson
-2. Clone the repository using **git clone https://github.com/jhilikb/ELC.git** on the Desktop of Jetson, follow instructions given in test/a and organize the files
-3. Pull the docker
-4. Run the docker
-5. Run the script set.sh in /home/test folder to finish your settings
-6. Run mytest.py in /home/yolo10 folder
-7. Make changes to the default application w.r.t your project
-8. Some patches (comment out) required in the code:
+1. Follow the instructions in ELC.pdf Experiment 1,Step 1 to connect to the jetson. If you dont have Ubuntu check the options provided for Windows. 
+2. Clone the repository using **git clone https://github.com/jhilikb/ELC.git** on the Desktop of Jetson (make sure you are in /home/nvidia/Desktop),
+    follow instructions given in test/a file in your ELC folder and organize the files. Recall you can download the files from the given drive link
+   on your laptop, then use scp for putting it in your /home/nvidia/Desktop/ELC/test folder on your jetson.
+4. Pull the docker as given in ELC.pdf Experiment 3,Step 1
+5. Run the docker as given in ELC.pdf Experiment 3,Step 1 but without the --rm option
+6. Run the script set.sh in /home/test folder to finish your settings
+7. Run mytest.py in /home/ultralytics folder
+8. Make changes to the default application w.r.t your project
+9. Some patches (lines to be commented out) required in the code:
    nano ultralytics/yolo/utils/checks.py (display)  
    nano ultralytics/yolo/utils/torch_utils.py (thop)  
    nano ultralytics/yolo/utils/__init__.py  (sentry-sdk line 467)  
